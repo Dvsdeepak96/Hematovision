@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <style>
+        body { text-align: center; font-family: Arial; padding-top: 50px; }
+        .container { max-width: 600px; margin: auto; }
+        h2 { color: #27ae60; }
+        img { width: 250px; height: auto; border: 1px solid #ccc; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Predicted Blood Cell Type:</h2>
+        <h3>{{ prediction }}</h3>
+        <img src="{{ image_path }}" alt="Uploaded image">
+        <br><br>
+        <a href="/">Upload Another Image</a>
+    </div>
+</body>
+</html>
