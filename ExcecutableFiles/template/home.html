@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HematoVision</title>
+    <style>
+        body { text-align: center; font-family: Arial; padding-top: 50px; }
+        .container { max-width: 600px; margin: auto; }
+        h1, h2 { color: #e74c3c; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the HematoVision</h1>
+        <h2>Predict Blood Cell Type</h2>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <br><br>
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
